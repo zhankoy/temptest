@@ -17,7 +17,7 @@ int main(int argc,char *argv[])
 
   comedi_data_read(it,subdev,chan,range,aref, & data);
 
-  printf("Acquired data is:");
+  printf("Acquired data is:")
   printf("%d\n",data);
 
   return 0;
